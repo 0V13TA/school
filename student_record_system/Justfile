@@ -1,0 +1,8 @@
+build:
+  clang -std=c99 -Wall -Wextra -g ./main.c -o srs.o
+
+run: build
+  ./srs.o
+
+clean:
+  rm srs.o
